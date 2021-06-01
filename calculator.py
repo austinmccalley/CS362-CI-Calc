@@ -1,8 +1,5 @@
-""" 
+"""
 Calculator app using CircleCI
-
-
-
 """
 
 
