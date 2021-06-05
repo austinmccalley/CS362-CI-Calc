@@ -4,6 +4,9 @@ jobs:
   build:
     docker:
       - image: circlci/python:3.7
+        auth:
+          username: mrmcaustin1
+          password: $DOCKERHUB_PASSWORD
 
     working_directory: ~/repo
 
