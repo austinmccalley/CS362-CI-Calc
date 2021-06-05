@@ -14,3 +14,6 @@ class TestCalculatorApp:
 
     def test_mult(self):
         assert 10 == calculator.multiply(5, 2)
+
+    def test_div(self):
+        assert 3 == calculator.div(6, 2)
